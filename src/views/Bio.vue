@@ -57,6 +57,8 @@ export default {
   margin-top: 100px;
   padding-left: 10%;
   padding-right: 10%;
+  justify-content: center;
+  align-items: center;
 }
 
 #rowThree img {
@@ -84,9 +86,21 @@ export default {
   margin-right: 16px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   #rowThree {
     flex-direction: column;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  #rowThree img {
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 0px;
+  }
+
+  #rowThreeText {
+    font-size: 4vw;
   }
 }
 </style>
