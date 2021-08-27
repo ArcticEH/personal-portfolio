@@ -6,11 +6,22 @@
   </div>
 
   <div id="rowTwo">
-    Hi. <br />
+    <b>Hi.</b> <br />
     I am a mobile, game, and web developer.
   </div>
 
-  <div id="rowThree"></div>
+  <div id="rowThree">
+    <img src="../assets/portfolioImage.png" />
+    <div id="rowThreeText">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </div>
+  </div>
 </template>
 
 <script>
@@ -42,6 +53,27 @@ export default {
 }
 
 #rowThree {
+  display: flex;
+  margin-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#rowThree img {
+  height: auto;
+  width: 200px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+#rowThreeText {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+  padding: 20px;
 }
 
 .whiteIcon {
@@ -50,5 +82,11 @@ export default {
   width: 50px;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+@media (max-width: 550px) {
+  #rowThree {
+    flex-direction: column;
+  }
 }
 </style>
