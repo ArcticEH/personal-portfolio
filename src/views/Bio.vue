@@ -1,12 +1,16 @@
 <template>
-  <div id="rowOne" class="block">
-    <img src="../assets/portfolioImage.png"/>
-    <div id="rowOneText">
-        Hi. <br> My name is Brandon Kolar and I am a mobile and game developer.
-    </div>
+  <div id="rowOne">
+    <fa class="whiteIcon" icon="mobile" />
+    <fa class="whiteIcon" icon="gamepad" />
+    <fa class="whiteIcon" icon="laptop-code" />
   </div>
-  <div id="rowTwo" class="block"></div>
-  <div id="rowThree" class="block"></div>
+
+  <div id="rowTwo">
+    Hi. <br />
+    I am a mobile, game, and web developer.
+  </div>
+
+  <div id="rowThree"></div>
 </template>
 
 <script>
@@ -17,46 +21,34 @@ export default {
 </script>
 
 <style scoped>
-.block {
-  margin-top: 12px;
-  border-radius: 5px;
-}
-
 #rowOne {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: white;
   justify-content: center;
-  align-items: center;
-}
-
-#rowOneText {
-  font-size: 3vw;
-  width: 600px;
-  color: black;
-  text-align: center;
-}
-
-@media (max-width: 750px) {
-
-}
-
-#rowOne img {
-  height: auto;
-  width: 25%;
-
+  margin-top: 64px;
 }
 
 #rowTwo {
-  width: 100%;
-  height: 200px;
-  background-color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  #rowTwo {
+    font-size: 5vw;
+  }
 }
 
 #rowThree {
-  width: 100%;
-  height: 250px;
-  background-color: royalblue;
+}
+
+.whiteIcon {
+  color: #39ace7;
+  height: auto;
+  width: 50px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 </style>

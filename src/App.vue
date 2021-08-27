@@ -32,4 +32,8 @@ body {
   padding-right: 12px;
   padding-bottom: 24px;
 }
+
+.blue {
+  color: #39ace7;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="navBarTitle">Brandon Kolar.</div>
+  <div id="navBarTitle">Brandon Kolar<span class="blue">.</span></div>
 
   <div id="navBarNavigation">
     <div id="navBarNavigationTitle">Bio</div>
