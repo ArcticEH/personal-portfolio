@@ -1,5 +1,10 @@
 <template>
-  <div id="rowOne" class="block"></div>
+  <div id="rowOne" class="block">
+    <img src="../assets/portfolioImage.png"/>
+    <div id="rowOneText">
+        Hi. <br> My name is Brandon Kolar and I am a mobile and game developer.
+    </div>
+  </div>
   <div id="rowTwo" class="block"></div>
   <div id="rowThree" class="block"></div>
 </template>
@@ -18,9 +23,29 @@ export default {
 }
 
 #rowOne {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 400px;
-  background-color: royalblue;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+#rowOneText {
+  font-size: 3vw;
+  width: 600px;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+
+}
+
+#rowOne img {
+  height: auto;
+  width: 25%;
+
 }
 
 #rowTwo {

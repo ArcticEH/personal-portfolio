@@ -2,7 +2,7 @@
   <div id="navBarTitle">Brandon Kolar.</div>
 
   <div id="navBarNavigation">
-    <div id="navBarNavigationTitle">Contact</div>
+    <div id="navBarNavigationTitle">Bio</div>
 
     <div id="navBarNavigationItems">
       <router-link to="/" class="navBarItem">
