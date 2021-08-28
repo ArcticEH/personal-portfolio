@@ -2,14 +2,13 @@
     <div id="container">
         <div id="header"><span class="blue">{{ year }}</span> <span id="title" >{{ title }}</span></div>
         <div id="content"> {{content}}</div>
-        
     </div>
-    <fa id="arrow" icon="caret-down"> </fa>
+    <fa v-if="this.showArrow" id="arrow" icon="caret-down"> </fa>
 </template>
 
 <script>
 export default {
-    props: ["year", "title", "content"]
+    props: ["year", "title", "content", "showArrow"]
 }
 </script>
 
@@ -36,7 +35,6 @@ export default {
 }
 
 #content {
-    
     font-size: 15px;
     padding-top: 6px;
     padding-bottom: 6px;
