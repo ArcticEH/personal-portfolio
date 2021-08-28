@@ -36,10 +36,10 @@ export default {
 }
 
 #content {
-    align-self: center;
-    font-size: 20px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 #arrow {
@@ -49,6 +49,29 @@ export default {
     bottom: 20px;
     height: 50px;
     width: 100%;
+    margin-bottom: -25px;
+}
+
+@media (max-width: 700px) {
+  #container {
+      margin-left: 6px;
+      margin-right: 6px;
+  }
+
+  #header {
+    font-size: 5vw;
+  
+}
+
+#title {
+    font-size: 4vw;;
+}
+
+#content {
+    font-size: 3.5vw;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
 }
 
 </style>

@@ -28,9 +28,10 @@
 
     <div id="rowFourHeader">Origin Story</div>
   
-    <TimelineBox year="2013" title="University of Guelph" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
-    
-    
+    <TimelineBox year="2014" title="University of Guelph" content="Completed BA in Criminal Justice and Public Policy w/ Business minor. Who knew I would be switching to programming a year later."/>
+    <TimelineBox year="2018" title="Mohawk College [Ongoing]" content="Started 3 year advanced diploma in Software Development. Mohawk is where i fell in love with programming and realized im kind of good at it."/>
+    <TimelineBox year="2019" title="MEDIC [Ongoing]" content="My first development job. True hands-on app development ranging from iOS to Vue."/>
+    <TimelineBox year="2021" title="Mohawk VR Center" content="Contract based work on WebGL 3D Education App. My first chance to use my Unity skills in a real life project. "/>
   </div>
 </template>
 
