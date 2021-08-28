@@ -1,11 +1,17 @@
 <template>
     <div id="container">
-        <div id="header"><span class="blue">2013</span> <span id="title" >University of Guelph</span></div>
-        <div id="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+        <div id="header"><span class="blue">{{ year }}</span> <span id="title" >{{ title }}</span></div>
+        <div id="content"> {{content}}</div>
         
     </div>
     <fa id="arrow" icon="caret-down"> </fa>
 </template>
+
+<script>
+export default {
+    props: ["year", "title", "content"]
+}
+</script>
 
 <style scoped>
 

@@ -27,8 +27,8 @@
 
 
     <div id="rowFourHeader">Origin Story</div>
-    
-    <TimelineBox />
+  
+    <TimelineBox year="2013" title="University of Guelph" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
     
     
   </div>
