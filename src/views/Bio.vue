@@ -22,22 +22,37 @@
       est laborum.
     </div>
   </div>
+
+    <div id="rowFour">
+
+
+    <div id="rowFourHeader">Origin Story</div>
+    
+    <TimelineBox />
+    
+    
+  </div>
 </template>
 
 <script>
+import TimelineBox from "../components/TimelineBox.vue"
+
 export default {
   name: "Home",
-  components: {},
+  components: {TimelineBox},
 };
 </script>
 
 <style scoped>
+
+/* Row One */
 #rowOne {
   display: flex;
   justify-content: center;
   margin-top: 64px;
 }
 
+/* Row Two */
 #rowTwo {
   font-size: 40px;
   text-align: center;
@@ -51,6 +66,8 @@ export default {
     font-size: 5vw;
   }
 }
+
+/* Row Three */
 
 #rowThree {
   display: flex;
@@ -103,4 +120,27 @@ export default {
     font-size: 4vw;
   }
 }
+
+/* Row Four */
+
+#rowFour {
+  margin-top: 100px;
+}
+
+#rowFourHeader {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/*
+.rowFourBox {
+  background-color: #343434;
+  height: 100px;
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+} */
 </style>
