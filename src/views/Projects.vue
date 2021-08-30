@@ -1,22 +1,27 @@
 <template>
-  <h2 class="title">Game</h2>
+  <h2 class="title">Games</h2>
 
   <div class="projectBox">
-    <img class="projectImage"  src="../assets/citySkyline.jpg"/>
+    <img class="projectImage" src="../assets/citySkyline.jpg" />
 
     <div class="projectDetails">
-    <div class="projectTitle">
-    Fyre - 2D Combat Platformer
-    </div>
+      <div class="projectTitle">
+        <span class="blue">Fyre - 2D Combat Platformer</span>
+      </div>
 
-    <div class="projectDescription">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
+      <div class="projectDescription">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </div>
 
-    <div class="projectSkills">
-    Unity, C#, Timelines
-    </div>
-
+      <div class="projectSkills">
+        Unity, C#, Timelines
+      </div>
     </div>
   </div>
 </template>
@@ -34,17 +39,15 @@ export default {};
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
-
-  
 }
 
 .projectImage {
   flex: 1;
   height: auto;
   align-self: center;
-  min-width: 200px;
+  width: 200px;
   background-color: green;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .projectDetails {
@@ -54,7 +57,7 @@ export default {};
   padding: 24px;
   margin-left: 12px;
   justify-content: flex-start;
-    background-color: #343434;
+  background-color: #343434;
   border-radius: 5px;
 }
 
@@ -66,11 +69,57 @@ export default {};
 
 .projectTitle {
   font-size: 25px;
+  font-weight: bold;
 }
 
 .projectSkills {
   margin-top: auto;
   background-color: white;
   color: black;
+}
+
+@media (max-width: 750px) {
+  .projectImage {
+    height: 200px;
+    width: 50%;
+    margin-bottom: 12px;
+  }
+
+  .projectDetails {
+    margin-left: 0px;
+    padding: 12px;
+  }
+
+  .projectBox {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .projectTitle {
+    font-size: 20px;
+  }
+
+  .projectDescription {
+    font-size: 15px;
+  }
+
+  .projectSkills {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .projectTitle {
+    font-size: 5vw;
+  }
+
+  .projectDescription {
+    font-size: 3vw;
+  }
+
+  .projectSkills {
+    font-size: 3vw;
+  }
 }
 </style>
