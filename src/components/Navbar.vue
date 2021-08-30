@@ -2,7 +2,9 @@
   <div id="navBarTitle">Brandon Kolar<span class="blue">.</span></div>
 
   <div id="navBarNavigation">
-    <div id="navBarNavigationTitle">{{$route.name}}</div>
+    <transition name="fade" mode="out-in">
+      <div id="navBarNavigationTitle">{{ $route.name }}</div>
+    </transition>
 
     <div id="navBarNavigationItems">
       <router-link to="/" class="navBarItem">

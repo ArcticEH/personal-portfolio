@@ -1,25 +1,27 @@
 <template>
-  <h2 class="title">Games</h2>
+  <div>
+    <h2 class="title">Games</h2>
 
-  <ProjectBox />
-  <fa class="separatorIcon" icon="ellipsis-h" />
-  <ProjectBox />
-  <fa class="separatorIcon" icon="ellipsis-h" />
-  <ProjectBox />
+    <ProjectBox />
+    <fa class="separatorIcon" icon="ellipsis-h" />
+    <ProjectBox />
+    <fa class="separatorIcon" icon="ellipsis-h" />
+    <ProjectBox />
 
-  <h2 class="title">Mobile</h2>
-  <ProjectBox />
-  <fa class="separatorIcon" icon="ellipsis-h" />
-  <ProjectBox />
-  <fa class="separatorIcon" icon="ellipsis-h" />
-  <ProjectBox />
+    <h2 class="title">Mobile</h2>
+    <ProjectBox />
+    <fa class="separatorIcon" icon="ellipsis-h" />
+    <ProjectBox />
+    <fa class="separatorIcon" icon="ellipsis-h" />
+    <ProjectBox />
 
-  <h2 class="title">Web</h2>
-  <ProjectBox />
-  <fa class="separatorIcon" icon="ellipsis-h" />
-  <ProjectBox />
-  <fa class="separatorIcon" icon="ellipsis-h" />
-  <ProjectBox />
+    <h2 class="title">Web</h2>
+    <ProjectBox />
+    <fa class="separatorIcon" icon="ellipsis-h" />
+    <ProjectBox />
+    <fa class="separatorIcon" icon="ellipsis-h" />
+    <ProjectBox />
+  </div>
 </template>
 <script>
 import ProjectBox from "../components/ProjectBox.vue";
