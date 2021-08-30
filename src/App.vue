@@ -34,6 +34,7 @@ body {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 24px;
+  color: white;
 }
 
 .blue {

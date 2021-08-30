@@ -2,7 +2,7 @@
   <div id="navBarTitle">Brandon Kolar<span class="blue">.</span></div>
 
   <div id="navBarNavigation">
-    <div id="navBarNavigationTitle">Bio</div>
+    <div id="navBarNavigationTitle">{{$route.name}}</div>
 
     <div id="navBarNavigationItems">
       <router-link to="/" class="navBarItem">
