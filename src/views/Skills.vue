@@ -1,5 +1,8 @@
 <template>
     <div id="container">
+
+        <h1 class="blue">A dump of all the things I have learned at work, school, and in my own time...</h1>
+
         <h2>Languages</h2>
         <div class="skillBox">
           <div class="skill"> C# </div>
@@ -13,7 +16,7 @@
                  <h2>IDEs / Game Engines</h2>
         <div class="skillBox">
           <div class="skill"> Unity </div>
-          <div class="skill"> XCode </div>
+          <div class="skill beginner"> XCode </div>
           <div class="skill"> Android Studio </div>
           <div class="skill"> Intellij </div>
          </div>
@@ -60,8 +63,12 @@ export default {
         margin-right: 15%;
     }
 
-    h2 {
+    h1 {
         margin-top: 64px;
+        margin-bottom: 64px;
+        font-size: 35px;
+        font-weight: none;
+        text-align: center;
     }
 
     .skillBox {
@@ -71,10 +78,14 @@ export default {
         border: 2px solid white;
         padding: 20px;
         border-radius: 5px;
+        margin-bottom: 64px;
     }
 
     .skill {
         font-size: 20px;
         text-align: center;
+        font-weight: bold;
     }
+
+
 </style>
