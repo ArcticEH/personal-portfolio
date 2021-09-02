@@ -1,91 +1,105 @@
 <template>
-    <div id="container">
+  <div id="container">
+    <h1 class="blue">
+      A dump of all the things I have learned at work, school, and in my own
+      time...
+    </h1>
 
-        <h1 class="blue">A dump of all the things I have learned at work, school, and in my own time...</h1>
-
-        <h2>Languages</h2>
-        <div class="skillBox">
-          <div class="skill"> C# </div>
-          <div class="skill"> JavaScript </div>
-          <div class="skill"> Swift </div>
-          <div class="skill"> Java </div>
-          <div class="skill"> SQL </div>
-          <div class="skill"> PHP </div>
-         </div>
-
-                 <h2>IDEs / Game Engines</h2>
-        <div class="skillBox">
-          <div class="skill"> Unity </div>
-          <div class="skill beginner"> XCode </div>
-          <div class="skill"> Android Studio </div>
-          <div class="skill"> Intellij </div>
-         </div>
-
-                          <h2>Frameworks / Platforms</h2>
-        <div class="skillBox">
-          <div class="skill"> React / React Native </div>
-          <div class="skill"> Vue </div>
-          <div class="skill"> .NET </div>
-          <div class="skill"> Node.js </div>
-          <div class="skill"> Flutter </div>
-         </div>
-
-                                   <h2>Databases</h2>
-        <div class="skillBox">
-          <div class="skill"> SQL Server Express </div>
-          <div class="skill"> PostGres </div>
-          <div class="skill"> MySQL </div>
-  
-         </div>
-
-                                            <h2>Other</h2>
-        <div class="skillBox">
-          <div class="skill"> Git </div>
-          <div class="skill"> GitHub </div>
-          <div class="skill"> BitBucket </div>
-                 <div class="skill"> Jira </div>
-          <div class="skill"> Agile </div>
-     
-          
-  
-         </div>
-
+    <h2>Languages</h2>
+    <div class="skillBox">
+      <div class="skill">C#</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Swift</div>
+      <div class="skill">Java</div>
+      <div class="skill">SQL</div>
+      <div class="skill">PHP</div>
     </div>
+
+    <h2>IDEs / Game Engines</h2>
+    <div class="skillBox">
+      <div class="skill">Unity</div>
+      <div class="skill beginner">XCode</div>
+      <div class="skill">Android Studio</div>
+      <div class="skill">Intellij</div>
+    </div>
+
+    <h2>Frameworks / Platforms</h2>
+    <div class="skillBox">
+      <div class="skill">React / React Native</div>
+      <div class="skill">Vue</div>
+      <div class="skill">.NET</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Flutter</div>
+    </div>
+
+    <h2>Databases</h2>
+    <div class="skillBox">
+      <div class="skill">SQL Server Express</div>
+      <div class="skill">PostGres</div>
+      <div class="skill">MySQL</div>
+    </div>
+
+    <h2>Other</h2>
+    <div class="skillBox">
+      <div class="skill">Git</div>
+      <div class="skill">GitHub</div>
+      <div class="skill">BitBucket</div>
+      <div class="skill">Jira</div>
+      <div class="skill">Agile</div>
+    </div>
+  </div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style scoped>
-    #container {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
+#container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
-    h1 {
-        margin-top: 64px;
-        margin-bottom: 64px;
-        font-size: 35px;
-        font-weight: none;
-        text-align: center;
-    }
+h1 {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  font-size: 35px;
+  font-weight: none;
+  text-align: center;
+}
 
-    .skillBox {
-        display: grid;
-        grid-gap: 25px;
-        grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
-        border: 2px solid white;
-        padding: 20px;
-        border-radius: 5px;
-        margin-bottom: 64px;
-    }
+.skillBox {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 64px;
+}
 
-    .skill {
-        font-size: 20px;
-        text-align: center;
-        font-weight: bold;
-    }
+.skill {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
 
+@media (max-width: 550px) {
+  h1 {
+    font-size: 25px;
+  }
 
+  .skill {
+    font-size: 15px;
+  }
+}
+
+.skillBox {
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
+}
 </style>
