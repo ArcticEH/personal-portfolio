@@ -41,19 +41,27 @@ export default {};
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 64px;
 }
 
 #socialMedia {
   flex: 1;
+  justify-content: space-between;
+}
+
+#socialMediaIcons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
 }
 
 .socialMediaIcon {
   color: white;
   height: 50px;
   width: 50px;
-  margin-right: 75px;
+  margin-left: 6px;
 }
 
 .socialMediaIcon:hover {
@@ -72,6 +80,7 @@ h3 {
 #contactForm {
   flex: 1;
   height: 100%;
+  width: 100%;
 }
 
 form {
@@ -81,7 +90,6 @@ form {
 
 input {
   height: 25px;
-  width: 100%;
   background-color: #17171717;
   color: white;
   font-size: 25px;
@@ -93,7 +101,6 @@ input {
 textarea {
   resize: none;
   height: 125px;
-  width: 100%;
   background-color: #17171717;
   color: white;
   font-size: 15px;
@@ -120,5 +127,30 @@ button {
 
 button:hover {
   background-color: #343434;
+}
+
+@media (max-width: 750px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #contactForm {
+    margin-top: 64px;
+  }
+}
+
+@media (max-width: 550px) {
+  #container {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  h2 {
+      font-size: 6vw;
+  }
+
+  h3 {
+      font-size: 5vw;
+  }
 }
 </style>

@@ -83,6 +83,12 @@ h1 {
 }
 
 @media (max-width: 550px) {
+
+#container {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
   h1 {
     font-size: 25px;
   }
