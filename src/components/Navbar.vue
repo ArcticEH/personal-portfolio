@@ -21,12 +21,42 @@
       </router-link>
     </div>
 
-    <fa id="navBarButton" icon="bars" />
+    <fa id="navBarButton" @click="toggleMenu" icon="bars" />
+
+    <transition name="slide">
+      <div id="sideMenu" v-if="showSideMenu">
+        <router-link to="/" @click="toggleMenu" class="sideBarMenuItem">
+          Bio
+        </router-link>
+        <router-link to="/Projects" @click="toggleMenu" class="sideBarMenuItem" >
+          Projects
+        </router-link>
+        <router-link to="/Skills" @click="toggleMenu" class="sideBarMenuItem">
+          Skills
+        </router-link>
+        <router-link to="/Contact" @click="toggleMenu" class="sideBarMenuItem">
+          Contact
+        </router-link>
+      </div>
+    </transition>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  components: {},
+  data() {
+    return {
+      showSideMenu: true,
+    };
+  },
+  methods: {
+    toggleMenu() {
+      console.log(this.showSideMenu);
+      this.showSideMenu = !this.showSideMenu;
+    },
+  },
+};
 </script>
 
 <style>
@@ -70,6 +100,42 @@ export default {};
 
 .router-link-active {
   text-decoration: underline;
+}
+
+#sideMenu {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  background-color: #343434;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  padding-top: 10%;
+}
+
+.sideBarMenuItem {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 5vw;
+  margin-left: 10%;
+  margin-bottom: 12px;
+}
+
+.slide-leave-active,
+.slide-enter-active {
+  transition: 0.5s;
+}
+/* .slide-enter {
+  transform: translate(100%, 0);
+} */
+
+.slide-enter-from {
+  transform: translate(-100%, 0);
+}
+
+.slide-leave-to {
+  transform: translate(-100%, 0);
 }
 
 @media (max-width: 750px) {
