@@ -1,27 +1,23 @@
 <template>
   <div id="projectContainer">
     <div class="">
-
-      
       <h2 class="title">Game Projects</h2>
       <!-- <fa class="whiteIcon" icon="gamepad" /> -->
-      <ProjectBox />
-      <ProjectBox />
-      <ProjectBox />
+      <ProjectBox
+        image="fireScreenshot.png"
+        title="Fyre - 2D Combat Platformer"
+        description="A 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game
+        takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight."
+        skills="Unity, C#, Game Design"
+      />
     </div>
 
     <div class="category">
       <h2 class="title">Mobile Projects</h2>
-      <ProjectBox />
-      <ProjectBox />
-      <ProjectBox />
     </div>
 
     <div class="category">
       <h2 class="title">Web Projects</h2>
-      <ProjectBox />
-      <ProjectBox />
-      <ProjectBox />
     </div>
   </div>
 </template>
