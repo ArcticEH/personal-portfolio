@@ -47,14 +47,20 @@ export default {
   components: {},
   data() {
     return {
-      showSideMenu: true,
+      showSideMenu: false,
     };
   },
   methods: {
     toggleMenu() {
-      console.log(this.showSideMenu);
       this.showSideMenu = !this.showSideMenu;
     },
+
+    closeMenu() {
+      if (this.showSideMenu) {
+        this.showSideMenu = false;
+      }
+    }
+    
   },
 };
 </script>

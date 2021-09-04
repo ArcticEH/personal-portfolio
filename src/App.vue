@@ -1,6 +1,6 @@
 <template>
-  <div id="container">
-    <Navbar />
+  <div @click.stop="onBackgroundClick" id="container">
+    <Navbar ref="navBarComponent"/>
 
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
@@ -18,6 +18,14 @@ import Footer from "./components/Footer.vue";
 
 export default {
   components: { Navbar, Footer },
+  methods: {
+    onBackgroundClick(event) {
+      if (event.target.id != "sideMenu" && event.target.id != "navBarButton") {
+        this.$refs.navBarComponent.closeMenu();
+      }
+      
+    }
+  }
 };
 </script>
 
