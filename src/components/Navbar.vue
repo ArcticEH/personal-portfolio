@@ -21,7 +21,7 @@
       </router-link>
     </div>
 
-    <fa id="navBarButton" @click="toggleMenu" icon="bars" />
+    <fa id="navBarButton" :class="{navBarActive: showSideMenu}" @click="toggleMenu" icon="bars" />
 
     <transition name="slide">
       <div id="sideMenu" v-if="showSideMenu">
@@ -89,6 +89,16 @@ export default {
   height: 40px;
   width: 40px;
   color: white;
+
+    -webkit-transition: all 0.5s ease;  
+  -moz-transition: all 0.5s ease;  
+  -o-transition: all 0.5s ease;  
+  -ms-transition: all 0.5s ease;  
+  transition: all 0.5s ease;
+}
+
+.navBarActive {
+  transform: rotate(90deg);
 }
 
 .navBarItem {
