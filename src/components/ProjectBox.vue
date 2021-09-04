@@ -1,27 +1,31 @@
 <template>
   <div class="projectBox">
-    
     <img class="projectImage" :src="require(`../assets/${image}`)" />
 
     <div class="projectDetails">
       <div class="projectTitle">
-        <span class="blue">{{title}}</span>
+        <span class="blue">{{ title }}</span>
       </div>
 
       <div class="projectDescription">
-        {{description}}
+        {{ description }}
       </div>
 
       <div class="projectSkills">
-        {{skills}}
+        {{ skills }}
+      </div>
+
+      <div class="socialMediaIcons" v-if="github">
+      <a href="linkedin.com"
+        ><fab class="socialMediaIcon" :icon="['fab', 'github']"
+      /></a>
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-  props: ["image", "title", "description", "skills"]
-
+  props: ["image", "title", "description", "skills", "github"],
 };
 </script>
 <style>
@@ -52,7 +56,6 @@ export default {
   justify-content: flex-start;
   /* background-color: #343434; */
   /* border-radius: 5px; */
-
 }
 
 .projectDescription {
@@ -70,6 +73,24 @@ export default {
   margin-top: auto;
   color: #39ace7;
   font-weight: bold;
+}
+
+
+.socialMediaIcons {
+  align-self: flex-end;
+}
+
+.socialMediaIcon {
+  color: white;
+  height: 50px;
+  width: 50px !important;
+  margin-right: 32px;
+  justify-self: flex-end;
+
+}
+
+.socialMediaIcon:hover {
+  color: #39ace7;
 }
 
 @media (max-width: 750px) {
