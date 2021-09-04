@@ -1,5 +1,6 @@
 <template>
   <div class="projectBox">
+    
     <img class="projectImage" src="../assets/citySkyline.jpg" />
 
     <div class="projectDetails">
