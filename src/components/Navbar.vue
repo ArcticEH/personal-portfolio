@@ -21,14 +21,19 @@
       </router-link>
     </div>
 
-    <fa id="navBarButton" :class="{navBarActive: showSideMenu}" @click="toggleMenu" icon="bars" />
+    <fa
+      id="navBarButton"
+      :class="{ navBarActive: showSideMenu }"
+      @click.stop="toggleMenu"
+      icon="bars"
+    />
 
     <transition name="slide">
       <div id="sideMenu" v-if="showSideMenu">
         <router-link to="/" @click="toggleMenu" class="sideBarMenuItem">
           Bio
         </router-link>
-        <router-link to="/Projects" @click="toggleMenu" class="sideBarMenuItem" >
+        <router-link to="/Projects" @click="toggleMenu" class="sideBarMenuItem">
           Projects
         </router-link>
         <router-link to="/Skills" @click="toggleMenu" class="sideBarMenuItem">
@@ -59,8 +64,7 @@ export default {
       if (this.showSideMenu) {
         this.showSideMenu = false;
       }
-    }
-    
+    },
   },
 };
 </script>
@@ -95,11 +99,12 @@ export default {
   height: 40px;
   width: 40px;
   color: white;
+  z-index: 1;
 
-    -webkit-transition: all 0.5s ease;  
-  -moz-transition: all 0.5s ease;  
-  -o-transition: all 0.5s ease;  
-  -ms-transition: all 0.5s ease;  
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -115,7 +120,7 @@ export default {
 }
 
 .router-link-active {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 #sideMenu {
@@ -190,7 +195,7 @@ export default {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #navBarNavigationTitle {
     align-self: flex-end;
   }

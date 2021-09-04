@@ -1,6 +1,6 @@
 <template>
-  <div @click.stop="onBackgroundClick" id="container">
-    <Navbar ref="navBarComponent"/>
+  <div @click="onBackgroundClick" id="container">
+    <Navbar ref="navBarComponent" />
 
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
@@ -23,9 +23,8 @@ export default {
       if (event.target.id != "sideMenu" && event.target.id != "navBarButton") {
         this.$refs.navBarComponent.closeMenu();
       }
-      
-    }
-  }
+    },
+  },
 };
 </script>
 
