@@ -32,14 +32,16 @@ export default {};
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 32px;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectImage {
   flex: 1;
-  height: auto;
+  height: 100%;
   align-self: center;
   width: 200px;
-  background-color: green;
+  border: 2px solid white;
   border-radius: 15px;
 }
 
@@ -50,14 +52,15 @@ export default {};
   padding: 12px;
   margin-left: 12px;
   justify-content: flex-start;
-  background-color: #343434;
-  border-radius: 5px;
+  /* background-color: #343434; */
+  /* border-radius: 5px; */
+
 }
 
 .projectDescription {
   padding-top: 6px;
   padding-bottom: 6px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .projectTitle {
@@ -67,7 +70,7 @@ export default {};
 
 .projectSkills {
   margin-top: auto;
-  color: #171717;
+  color: #39ace7;
   font-weight: bold;
 }
 
@@ -85,8 +88,8 @@ export default {};
 
   .projectBox {
     flex-direction: column;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 
   .projectTitle {
@@ -94,18 +97,18 @@ export default {};
   }
 
   .projectDescription {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .projectSkills {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
 @media (max-width: 550px) {
   .projectImage {
     height: 100px;
-    width: 50%;
+    width: 40%;
     margin-bottom: 12px;
   }
 
@@ -114,7 +117,7 @@ export default {};
   }
 
   .projectDescription {
-    font-size: 10px;
+    font-size: 2.75vw;
   }
 
   .projectSkills {

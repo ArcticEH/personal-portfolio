@@ -3,23 +3,17 @@
     <h2 class="title">Games</h2>
 
     <ProjectBox />
-    <fa class="separatorIcon" icon="ellipsis-h" />
     <ProjectBox />
-    <fa class="separatorIcon" icon="ellipsis-h" />
     <ProjectBox />
 
     <h2 class="title">Mobile</h2>
     <ProjectBox />
-    <fa class="separatorIcon" icon="ellipsis-h" />
     <ProjectBox />
-    <fa class="separatorIcon" icon="ellipsis-h" />
     <ProjectBox />
 
     <h2 class="title">Web</h2>
     <ProjectBox />
-    <fa class="separatorIcon" icon="ellipsis-h" />
     <ProjectBox />
-    <fa class="separatorIcon" icon="ellipsis-h" />
     <ProjectBox />
   </div>
 </template>
@@ -33,7 +27,7 @@ export default {
 <style>
 .title {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 
