@@ -27,24 +27,24 @@
       @click.stop="toggleMenu"
       icon="bars"
     />
-
-    <transition name="slide">
-      <div id="sideMenu" v-if="showSideMenu">
-        <router-link to="/" @click="toggleMenu" class="sideBarMenuItem">
-          Bio
-        </router-link>
-        <router-link to="/Projects" @click="toggleMenu" class="sideBarMenuItem">
-          Projects
-        </router-link>
-        <router-link to="/Skills" @click="toggleMenu" class="sideBarMenuItem">
-          Skills
-        </router-link>
-        <router-link to="/Contact" @click="toggleMenu" class="sideBarMenuItem">
-          Contact
-        </router-link>
-      </div>
-    </transition>
   </div>
+
+  <transition name="slide">
+    <div id="sideMenu" v-if="showSideMenu">
+      <router-link to="/" @click="toggleMenu" class="sideBarMenuItem">
+        Bio
+      </router-link>
+      <router-link to="/Projects" @click="toggleMenu" class="sideBarMenuItem">
+        Projects
+      </router-link>
+      <router-link to="/Skills" @click="toggleMenu" class="sideBarMenuItem">
+        Skills
+      </router-link>
+      <router-link to="/Contact" @click="toggleMenu" class="sideBarMenuItem">
+        Contact
+      </router-link>
+    </div>
+  </transition>
 </template>
 
 <script>
@@ -124,12 +124,13 @@ export default {
 }
 
 #sideMenu {
-  position: absolute;
+  position: fixed;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   background-color: #343434;
   top: 0px;
   left: 0px;
+  bottom: 0px;
   z-index: 1;
   padding-top: 10%;
 }
