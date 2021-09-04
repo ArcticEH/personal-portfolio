@@ -53,15 +53,15 @@ export default {};
 
 #socialMediaIcons {
   display: flex;
-  justify-content: space-between;
-  padding-right: 100px;
+  justify-content: flex-start
+  /* padding-right: 100px; */
 }
 
 .socialMediaIcon {
   color: white;
   height: 50px;
   width: 50px;
-  margin-left: 6px;
+  margin-right: 32px;
 }
 
 .socialMediaIcon:hover {
@@ -132,6 +132,8 @@ button:hover {
 @media (max-width: 750px) {
   #container {
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 
   #contactForm {
