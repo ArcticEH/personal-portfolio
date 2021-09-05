@@ -142,6 +142,14 @@ export default {
   .projectSkills {
     font-size: 15px;
   }
+
+  .socialMediaIcon {
+    color: white;
+    height: 25px;
+    width: 25px !important;
+    margin-right: 32px;
+    justify-self: flex-end;
+  }
 }
 
 @media (max-width: 550px) {

@@ -42,7 +42,7 @@
     </div>
 
     <div class="category">
-      <h2 class="title">Notable Work Projects</h2>
+      <h2 class="title">Notable Professional Projects</h2>
     </div>
 
     <ProjectBox
@@ -51,7 +51,7 @@
       description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
         Check out the GitHub link to play it right in your browser!"
       skills="Unity, C#, 3D"
-      youtube="https://github.com/ArcticEH/personal-portfolio"
+      youtube="https://www.youtube.com/watch?v=YGUSFeBUNoI"
     />
 
     <ProjectBox
@@ -117,6 +117,10 @@ export default {
 @media (max-width: 750px) {
   .separatorIcon {
     display: block;
+  }
+
+  .title {
+    font-size: 25px;
   }
 }
 </style>

@@ -14,13 +14,13 @@
     <div id="rowThree">
       <img src="../assets/portfolioImage.png" rel="preload" />
       <div id="rowThreeText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I'm Brandon, a final semester software development student who loves
+        developing games and applications. I am very passionate about the work I
+        do and treat every project as a learning opportunity.
+        <br />
+        <br />
+        When I am not programming, you will likely find me strength training,
+        playing video games, or reading fantasy books.
       </div>
     </div>
 
@@ -110,6 +110,7 @@ export default {
 
 #rowThreeText {
   color: white;
+  text-align: center;
   font-size: 20px;
   align-self: center;
   padding: 20px;
