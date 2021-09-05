@@ -91,7 +91,7 @@ export default {
 .projectSkills {
   display: flex;
   margin-top: auto;
-  color: #39ace7;
+  /* color: #39ace7; */
   font-weight: bold;
   justify-content: space-between;
   align-items: center;

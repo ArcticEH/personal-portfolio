@@ -28,27 +28,27 @@
       <div id="rowFourHeader">Origin Story</div>
 
       <TimelineBox
-        year="2014"
+        year="2014 - 2018"
         title="University of Guelph"
-        content="Completed BA in Criminal Justice and Public Policy w/ Business minor. Who knew I would be switching to programming a year later."
+        content="Completed BA in Criminal Justice and Public Policy w/ Business minor. "
         :showArrow="true"
       />
       <TimelineBox
-        year="2018"
-        title="Mohawk College [Ongoing]"
+        year="2018 - Now"
+        title="Mohawk College"
         content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it."
         :showArrow="true"
       />
       <TimelineBox
-        year="2019"
-        title="MEDIC [Ongoing]"
-        content="My first development job. True hands-on app development ranging from iOS to Vue."
+        year="2019 - Now"
+        title="MEDIC"
+        content="My first software development job. MEDIC has been willing to provide a fresh developer like me with years of true hands-on development experience. "
         :showArrow="true"
       />
       <TimelineBox
         year="2021"
         title="Mohawk VR Center"
-        content="Contract based work on WebGL 3D Education App. My first chance to use my Unity skills in a real life project."
+        content="Contracted to create a 3D WebGL educational game. My first opportunity to use Unity in the real world."
         :showArrow="false"
       />
     </div>

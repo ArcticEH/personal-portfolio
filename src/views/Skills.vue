@@ -2,8 +2,10 @@
   <div id="container">
     <fab class="socialMediaIcon" :icon="['fas', 'brain']" />
     <h1>
-      Learn continually. There's always 'one more thing' to learn! <br />
-      <span class="blue">Steve Jobs</span>
+      "We now accept the fact that learning is a lifelong process of keeping
+      abreast of change. And the most pressing task is to teach people how to
+      learn. <br />
+      <span class="blue">Peter Drucker</span>
     </h1>
 
     <h2>Languages</h2>
@@ -78,6 +80,10 @@ h1 {
   text-align: center;
 }
 
+span {
+  font-size: 15px;
+}
+
 .skillBox {
   display: grid;
   grid-gap: 25px;
@@ -101,11 +107,15 @@ h1 {
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 15px;
   }
 
   .skill {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
@@ -116,7 +126,7 @@ h1 {
 
 @media (max-width: 400px) {
   h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 </style>

@@ -1,7 +1,8 @@
 <template>
   <div id="container">
     <div id="header">
-      <span class="blue">{{ year }}</span> <span id="title">{{ title }}</span>
+      <span id="year" class="blue">{{ year }}</span>
+      <span id="title">{{ title }}</span>
     </div>
     <div id="content">{{ content }}</div>
   </div>
@@ -27,7 +28,6 @@ export default {
 }
 
 #header {
-  font-size: 30px;
   font-weight: bold;
 }
 
@@ -35,10 +35,16 @@ export default {
   font-size: 20px;
 }
 
+#year {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
 #content {
   font-size: 15px;
   padding-top: 6px;
   padding-bottom: 6px;
+  white-space: pre-wrap;
 }
 
 #arrow {
@@ -55,18 +61,19 @@ export default {
   #container {
     margin-left: 6px;
     margin-right: 6px;
+    padding: 10px;
   }
 
   #header {
-    font-size: 5vw;
+    font-size: 3vw;
   }
 
   #title {
-    font-size: 4vw;
+    font-size: 15px;
   }
 
   #content {
-    font-size: 3.5vw;
+    font-size: 12px;
     padding-top: 16px;
     padding-bottom: 16px;
   }
