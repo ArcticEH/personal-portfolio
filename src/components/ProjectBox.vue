@@ -13,12 +13,12 @@
 
       <div class="projectSkills">
         {{ skills }}
-      </div>
 
-      <div class="socialMediaIcons" v-if="github">
-      <a href="linkedin.com"
-        ><fab class="socialMediaIcon" :icon="['fab', 'github']"
-      /></a>
+        <div class="socialMediaIcons" v-if="github">
+          <a v-if="github" :href="github"
+            ><fab class="socialMediaIcon" :icon="['fab', 'github']"
+          /></a>
+        </div>
       </div>
     </div>
   </div>
@@ -62,6 +62,7 @@ export default {
   padding-top: 6px;
   padding-bottom: 6px;
   font-size: 15px;
+  white-space: pre-line;
 }
 
 .projectTitle {
@@ -70,11 +71,13 @@ export default {
 }
 
 .projectSkills {
+  display: flex;
   margin-top: auto;
   color: #39ace7;
   font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 .socialMediaIcons {
   align-self: flex-end;
@@ -86,7 +89,6 @@ export default {
   width: 50px !important;
   margin-right: 32px;
   justify-self: flex-end;
-
 }
 
 .socialMediaIcon:hover {
