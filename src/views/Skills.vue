@@ -1,8 +1,9 @@
 <template>
   <div id="container">
-    <h1 class="blue">
-      A dump of all the things I have learned at work, school, and in my own
-      time...
+    <fab class="socialMediaIcon" :icon="['fas', 'brain']" />
+    <h1>
+      Learn continually. There's always 'one more thing' to learn! <br />
+      <span class="blue">Steve Jobs</span>
     </h1>
 
     <h2>Languages</h2>
@@ -58,10 +59,21 @@ export default {};
   margin-right: 15%;
 }
 
-h1 {
+.socialMediaIcon {
+  color: #39ace7;
+  height: 50px;
+  width: 50px !important;
+  margin-right: 32px;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 64px;
+}
+
+h1 {
+  /* margin-top: 64px; */
   margin-bottom: 64px;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: none;
   text-align: center;
 }
@@ -83,11 +95,10 @@ h1 {
 }
 
 @media (max-width: 550px) {
-
-#container {
+  #container {
     margin-left: 16px;
     margin-right: 16px;
-}
+  }
 
   h1 {
     font-size: 25px;
