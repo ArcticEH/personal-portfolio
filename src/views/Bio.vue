@@ -12,7 +12,7 @@
     </div>
 
     <div id="rowThree">
-      <img src="../assets/portfolioImage.png" />
+      <img src="../assets/portfolioImage.png" rel="preload" />
       <div id="rowThreeText">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

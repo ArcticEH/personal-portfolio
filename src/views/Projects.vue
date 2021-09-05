@@ -28,13 +28,48 @@
         description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
         Check out the GitHub link to play it right in your browser!"
         skills="Android, Java, REST API"
-        github="https://github.com/ArcticEH/MMOCCGame"
+        github="https://github.com/ArcticEH/WoW-Mount-Collector"
+      />
+
+      <ProjectBox
+        image="websiteScreenshot.png"
+        title="Vue Portfolio Website"
+        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
+        Check out the GitHub link to play it right in your browser!"
+        skills="Vue 3, Javascript, CSS"
+        github="https://github.com/ArcticEH/personal-portfolio"
       />
     </div>
 
     <div class="category">
-      <h2 class="title">Work Projects</h2>
+      <h2 class="title">Notable Work Projects</h2>
     </div>
+
+    <ProjectBox
+      image="hazardScreenshot.png"
+      title="3D WebGL Hazard Game"
+      description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
+        Check out the GitHub link to play it right in your browser!"
+      skills="Unity, C#, 3D"
+      youtube="https://github.com/ArcticEH/personal-portfolio"
+    />
+
+    <ProjectBox
+      image="back2playScreenshot.png"
+      title="iOS Concussion Research App "
+      description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
+        Check out the GitHub link to play it right in your browser!"
+      skills="iOS, WatchOS, Swift, XCode"
+      link="https://www.canchild.ca/en/research-in-practice/current-studies/the-back2play-app-study"
+    />
+
+    <ProjectBox
+      image="chartJSScreenshot.png"
+      title="App Metrics Visualization Web App"
+      description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
+        Check out the GitHub link to play it right in your browser!"
+      skills="Javascript, Chart JS, Node, Express"
+    />
   </div>
 </template>
 <script>

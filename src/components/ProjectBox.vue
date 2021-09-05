@@ -14,12 +14,18 @@
       <div class="projectSkills">
         {{ skills }}
 
-        <div class="socialMediaIcons" v-if="github || play">
+        <div class="socialMediaIcons" v-if="github || play || youtube || link">
           <a v-if="github" :href="github"
             ><fab class="socialMediaIcon" :icon="['fab', 'github']"
           /></a>
           <a v-if="play" :href="play"
             ><fab class="socialMediaIcon" :icon="['fas', 'play']"
+          /></a>
+          <a v-if="youtube" :href="youtube"
+            ><fab class="socialMediaIcon" :icon="['fab', 'youtube']"
+          /></a>
+          <a v-if="link" :href="link"
+            ><fab class="socialMediaIcon" :icon="['fas', 'external-link-alt']"
           /></a>
         </div>
       </div>
@@ -28,7 +34,16 @@
 </template>
 <script>
 export default {
-  props: ["image", "title", "description", "skills", "github", "play"],
+  props: [
+    "image",
+    "title",
+    "description",
+    "skills",
+    "github",
+    "play",
+    "youtube",
+    "link",
+  ],
 };
 </script>
 <style>
