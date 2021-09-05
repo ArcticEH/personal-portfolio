@@ -14,9 +14,12 @@
       <div class="projectSkills">
         {{ skills }}
 
-        <div class="socialMediaIcons" v-if="github">
+        <div class="socialMediaIcons" v-if="github || play">
           <a v-if="github" :href="github"
             ><fab class="socialMediaIcon" :icon="['fab', 'github']"
+          /></a>
+          <a v-if="play" :href="play"
+            ><fab class="socialMediaIcon" :icon="['fas', 'play']"
           /></a>
         </div>
       </div>
@@ -25,7 +28,7 @@
 </template>
 <script>
 export default {
-  props: ["image", "title", "description", "skills", "github"],
+  props: ["image", "title", "description", "skills", "github", "play"],
 };
 </script>
 <style>

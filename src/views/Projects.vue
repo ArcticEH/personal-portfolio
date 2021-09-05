@@ -1,7 +1,7 @@
 <template>
   <div id="projectContainer">
     <div class="">
-      <h2 class="title">Game Projects</h2>
+      <h2 class="title">Personal Projects</h2>
       <!-- <fa class="whiteIcon" icon="gamepad" /> -->
       <ProjectBox
         image="fireScreenshot.png"
@@ -9,16 +9,31 @@
         description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
         Check out the GitHub link to play it right in your browser!"
         skills="Unity, C#, Game Design"
-        github="https://arcticeh.github.io/Capstone2DSideScrollerDemo/"
+        github="https://github.com/ArcticEH/Capstone2DSideScroller"
+        play="https://arcticeh.github.io/Capstone2DSideScrollerDemo/"
+      />
+
+      <ProjectBox
+        image="mmoccScreenshot.png"
+        title="Multiplayer Isometric Chat Game [Client & Server]"
+        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
+        Check out the GitHub link to play it right in your browser!"
+        skills="Unity, C#, Websockets, .NET Core"
+        github="https://github.com/ArcticEH/MMOCCGame"
+      />
+
+      <ProjectBox
+        image="wowScreenshot.png"
+        title="Android WoW Mount Collector"
+        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
+        Check out the GitHub link to play it right in your browser!"
+        skills="Android, Java, REST API"
+        github="https://github.com/ArcticEH/MMOCCGame"
       />
     </div>
 
     <div class="category">
-      <h2 class="title">Mobile Projects</h2>
-    </div>
-
-    <div class="category">
-      <h2 class="title">Web Projects</h2>
+      <h2 class="title">Work Projects</h2>
     </div>
   </div>
 </template>
