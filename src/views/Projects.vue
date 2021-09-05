@@ -6,8 +6,7 @@
       <ProjectBox
         image="fireScreenshot.png"
         title="Fyre - 2D Combat Platformer"
-        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
-        Check out the GitHub link to play it right in your browser!"
+        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. Check out the GitHub link to play it right in your browser!"
         skills="Unity, C#, Game Design"
         github="https://github.com/ArcticEH/Capstone2DSideScroller"
         play="https://arcticeh.github.io/Capstone2DSideScrollerDemo/"
@@ -16,8 +15,7 @@
       <ProjectBox
         image="mmoccScreenshot.png"
         title="Multiplayer Isometric Chat Game [Client & Server]"
-        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
-        Check out the GitHub link to play it right in your browser!"
+        description="An ongoing passion project to create an MMOCC (massive multiplayer online chatting community). The project has mostly been an opportunity to experiment with multiplayer networking architecture. The isometric-block style of the game has also allowed me to experiment with depth sorting and pathfinding. The current product utilizes websockets and is in mostly a prototype-like state with working multiplayer, pathfinding, 2 separate rooms, and chatting."
         skills="Unity, C#, Websockets, .NET Core"
         github="https://github.com/ArcticEH/MMOCCGame"
       />
@@ -25,8 +23,7 @@
       <ProjectBox
         image="wowScreenshot.png"
         title="Android WoW Mount Collector"
-        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
-        Check out the GitHub link to play it right in your browser!"
+        description="A World of Warcraft Mount Collection Android app that uses the official Blizzard APIs to display an image and description of any in-game mount. The app allows a user to save any collected mount to a MySQL database to access while offline. Working on this project helped me become more comfortable with native Android development. "
         skills="Android, Java, REST API"
         github="https://github.com/ArcticEH/WoW-Mount-Collector"
       />
@@ -34,8 +31,7 @@
       <ProjectBox
         image="websiteScreenshot.png"
         title="Vue Portfolio Website"
-        description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
-        Check out the GitHub link to play it right in your browser!"
+        description="The website you are looking at right now! I aimed to create a minimalistic dark themed site that would be mobile-friendly and simple to maintain. I used Vue 3 to create the app and utilized reusable components whenever appopriate (such as with these 'Project Boxes'). The row-like design was mostly accomplished using flexbox and media queries. "
         skills="Vue 3, Javascript, CSS"
         github="https://github.com/ArcticEH/personal-portfolio"
       />
