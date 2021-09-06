@@ -4,7 +4,7 @@
     <h1>
       "We now accept the fact that learning is a lifelong process of keeping
       abreast of change. And the most pressing task is to teach people how to
-      learn. <br />
+      learn." <br />
       <span class="blue">Peter Drucker</span>
     </h1>
 
@@ -33,6 +33,7 @@
       <div class="skill">.NET</div>
       <div class="skill">Node.js</div>
       <div class="skill">Flutter</div>
+      <div class="skill">WordPress</div>
     </div>
 
     <h2>Databases</h2>

@@ -44,8 +44,7 @@
     <ProjectBox
       image="hazardScreenshot.png"
       title="3D WebGL Hazard Game"
-      description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
-        Check out the GitHub link to play it right in your browser!"
+      description="A education game targeting nursing students where 10 randomly spawning hazards must be identified to win. I was the sole developer on the project and utilized raycasting, collision, animators, player movement, and simple UI. "
       skills="Unity, C#, 3D"
       youtube="https://www.youtube.com/watch?v=YGUSFeBUNoI"
     />
@@ -53,8 +52,7 @@
     <ProjectBox
       image="back2playScreenshot.png"
       title="iOS Concussion Research App "
-      description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
-        Check out the GitHub link to play it right in your browser!"
+      description="Worked on a 3 person development team to create an iOS and WatchOS concussion recovery app aimed at adolescents. The app sends notifications to the user to complete daily surveys with self-reporting symptoms. Users move through 2 recovery systems with the help of app recommendations. Click the link icon below for additional information from the research team."
       skills="iOS, WatchOS, Swift, XCode"
       link="https://www.canchild.ca/en/research-in-practice/current-studies/the-back2play-app-study"
     />
@@ -62,9 +60,8 @@
     <ProjectBox
       image="chartJSScreenshot.png"
       title="App Metrics Visualization Web App"
-      description="A browser-based 2D platformer inspired by RPGs I have played growing up. Implemented combat with skills, convincing AI, traps, a parallax background, cut scenes, and more! The game takes about 20 minutes to complete and includes a tutorial level, castle level, and a sequenced boss fight. 
-        Check out the GitHub link to play it right in your browser!"
-      skills="Javascript, Chart JS, Node, Express"
+      description="Created a web app that aggregated and manipulated raw usage data from a mobile application and displayed the data using the appopriate charts. The app also required a login system and a node backend which utilized a PostGres database. "
+      skills="Javascript, Chart JS, Node, Express, SQL, PostGres"
     />
   </div>
 </template>
