@@ -21,19 +21,68 @@
       </div>
     </div>
 
-    <!-- <div id="contactForm">
-      <h3>Send a message<span class="blue">.</span></h3>
-      <form action="”mailto:brandonbkolar@gmail.com">
-        <input id="nameInput" name="name" type="text" placeholder="Name" />
-        <input id="emailInput" name="email" type="email" placeholder="Email" />
-        <textarea type="text" name="message" placeholder="Message..." />
-        <button type="submit">Send</button>
-      </form>
-    </div> -->
+    <div id="contactForm">
+      <div v-if="!messageSent && !messageError">
+        <h3>Send a message<span class="blue">.</span></h3>
+        <form @submit.prevent="sendEmail">
+          <input id="nameInput" name="name" type="text" placeholder="Name" />
+          <input
+            id="emailInput"
+            name="email"
+            type="email"
+            placeholder="Email"
+          />
+          <textarea type="text" name="message" placeholder="Message..." />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="message" v-if="messageSent">
+        <h3>Message sent<span class="blue">.</span></h3>
+        <p>I will try to get back to you asap!</p>
+      </div>
+
+      <div class="message" v-if="messageError">
+        <h3>Failed to send message<span class="blue">.</span></h3>
+        <p>Maybe try your personal email?</p>
+      </div>
+    </div>
   </div>
 </template>
 <script>
-export default {};
+import emailjs from "emailjs-com";
+
+export default {
+  data: () => {
+    return {
+      messageSent: false,
+      messageError: false,
+    };
+  },
+  methods: {
+    sendEmail(e) {
+      emailjs
+        .sendForm(
+          "service_mhco6me",
+          "template_3tbwn7v",
+          e.target,
+          "user_m5DWkzVXOqrDGOsXpvmNf"
+        )
+        .then(
+          (result) => {
+            // console.log("SUCCESS!", result.status, result.text);
+            e.target.reset();
+            this.messageSent = true;
+          },
+          (error) => {
+            // console.log("FAILED...", error);
+            messageError = true;
+            this.messageError = true;
+          }
+        );
+    },
+  },
+};
 </script>
 <style scoped>
 #container {
@@ -53,7 +102,7 @@ export default {};
 
 #socialMediaIcons {
   display: flex;
-  justify-content: center;
+
   /* justify-content: flex-start; */
   /* padding-right: 100px; */
 }
@@ -71,7 +120,7 @@ export default {};
 
 h2 {
   font-size: 40px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 h3 {
@@ -109,6 +158,10 @@ textarea {
   padding: 5px;
   border: 2px solid white;
   font-family: arial;
+}
+
+.message {
+  text-align: center;
 }
 
 button {
