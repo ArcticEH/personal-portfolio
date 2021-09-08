@@ -6,30 +6,30 @@
         I would love to share<span class="blue">.</span>
       </h2>
       <div id="socialMediaIcons">
-        <a href="twitter.com"
+        <!-- <a href="twitter.com"
           ><fab class="socialMediaIcon" :icon="['fab', 'twitter']"
-        /></a>
-        <a href="github.com"
+        /></a> -->
+        <a href="https://github.com/ArcticEH"
           ><fab class="socialMediaIcon" :icon="['fab', 'github']"
         /></a>
-        <a href="linkedin.com"
+        <a href="https://www.linkedin.com/in/brandon-kolar-3522659b/"
           ><fab class="socialMediaIcon" :icon="['fab', 'linkedin']"
         /></a>
-        <a href="linkedin.com"
+        <a href="mailto:brandonbkolar@gmail.com"
           ><fab class="socialMediaIcon" :icon="['fas', 'envelope']"
         /></a>
       </div>
     </div>
 
-    <div id="contactForm">
+    <!-- <div id="contactForm">
       <h3>Send a message<span class="blue">.</span></h3>
-      <form>
-        <input id="nameInput" type="text" placeholder="Name" />
-        <input id="emailInput" type="email" placeholder="Email" />
-        <textarea type="text" placeholder="Message..." />
+      <form action="”mailto:brandonbkolar@gmail.com">
+        <input id="nameInput" name="name" type="text" placeholder="Name" />
+        <input id="emailInput" name="email" type="email" placeholder="Email" />
+        <textarea type="text" name="message" placeholder="Message..." />
         <button type="submit">Send</button>
       </form>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -39,7 +39,7 @@ export default {};
 #container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -53,7 +53,8 @@ export default {};
 
 #socialMediaIcons {
   display: flex;
-  justify-content: flex-start
+  justify-content: center;
+  /* justify-content: flex-start; */
   /* padding-right: 100px; */
 }
 
@@ -70,6 +71,7 @@ export default {};
 
 h2 {
   font-size: 40px;
+  text-align: center;
 }
 
 h3 {
@@ -148,11 +150,11 @@ button:hover {
   }
 
   h2 {
-      font-size: 6vw;
+    font-size: 6vw;
   }
 
   h3 {
-      font-size: 5vw;
+    font-size: 5vw;
   }
 }
 </style>

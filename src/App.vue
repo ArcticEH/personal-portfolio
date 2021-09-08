@@ -17,6 +17,9 @@ import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
+  mounted() {
+    this.$router.replace("/"); // added this
+  },
   components: { Navbar, Footer },
   methods: {
     onBackgroundClick(event) {
