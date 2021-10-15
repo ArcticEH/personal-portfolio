@@ -25,14 +25,16 @@
       <div v-if="!messageSent && !messageError">
         <h3>Send a message<span class="blue">.</span></h3>
         <form @submit.prevent="sendEmail">
-          <input id="nameInput" name="name" type="text" placeholder="Name" />
+          <input id="nameInput" name="name" type="text" placeholder="Name" required />
           <input
             id="emailInput"
             name="email"
             type="email"
             placeholder="Email"
+
+            required
           />
-          <textarea type="text" name="message" placeholder="Message..." />
+          <textarea type="text" name="message" placeholder="Message..." required />
           <button type="submit">Send</button>
         </form>
       </div>

@@ -16,6 +16,7 @@
       <div class="skill">Java</div>
       <div class="skill">SQL</div>
       <div class="skill">PHP</div>
+      <div class="skill">Python</div>
     </div>
 
     <h2>IDEs / Game Engines</h2>
