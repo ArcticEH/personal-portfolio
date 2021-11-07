@@ -33,6 +33,7 @@
         content="Contracted to create a 3D WebGL educational game. My first opportunity to use Unity in the real world."
         :showArrow="false"
         :showCircle="true"
+        image="mohawkLogo.png"
       />
 
       <TimelineBox
@@ -40,6 +41,7 @@
         title="MEDIC"
         content="My first software development job. MEDIC has been willing to provide a fresh developer like me with years of true hands-on development experience. "
         :showArrow="true"
+        image="mohawkLogo.png"
       />
 
 
@@ -54,16 +56,18 @@
         class="timeline"
         year="2018 - Now"
         title="Mohawk College [Advanced Diploma]"
-        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it."
+        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it. "
         :showCircle="true"
+        image="mohawkLogo.png"
       />
 
       <TimelineBox
         class="timeline"
         year="2018 - Now"
         title="Mohawk College [Diploma]"
-        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it."
+        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it. "
         :showArrow="true"
+        image="mohawkLogo.png"
       />
 
       <TimelineBox
@@ -72,6 +76,7 @@
         title="University of Guelph [BA]"
         content="Completed BA in Criminal Justice and Public Policy w/ Business minor. "
         :showArrow="true"
+        image="mohawkLogo.png"
       />
 
     </div>
