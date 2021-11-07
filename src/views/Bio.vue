@@ -27,21 +27,31 @@
     <div id="rowFour">
       <div id="rowFourHeader">Professional Story</div>
 
+      
+      <TimelineBox
+        year="2021 - Now"
+        title="Tulip"
+        content="My journey continues as an iOS Developer at Tulip."
+        :showArrow="false"
+        :showCircle="false"
+        image="tulipLogo.png"
+      />
+
       <TimelineBox
         year="2021"
         title="Mohawk VR Center"
         content="Contracted to create a 3D WebGL educational game. My first opportunity to use Unity in the real world."
-        :showArrow="false"
-        :showCircle="true"
+        :showArrow="true"
+        :showCircle="false"
         image="mohawkLogo.png"
       />
 
       <TimelineBox
-        year="2019 - Now"
+        year="2019 - 2021"
         title="MEDIC"
         content="My first software development job. MEDIC has been willing to provide a fresh developer like me with years of true hands-on development experience. "
         :showArrow="true"
-        image="mohawkLogo.png"
+        image="medicLogo.png"
       />
 
 
@@ -76,7 +86,7 @@
         title="University of Guelph [BA]"
         content="Completed BA in Criminal Justice and Public Policy w/ Business minor. "
         :showArrow="true"
-        image="mohawkLogo.png"
+        image="guelphLogo.png"
       />
 
     </div>

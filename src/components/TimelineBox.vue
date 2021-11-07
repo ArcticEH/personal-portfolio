@@ -37,8 +37,8 @@ export default {
   display: flex;
   align-items: center;    
   justify-content: center;
-  margin-left: 15%;
-  margin-right: 15%;  
+  margin-left: 12.5%;
+  margin-right: 12.5%;  
 
 }
 
