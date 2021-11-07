@@ -31,7 +31,7 @@
       <TimelineBox
         year="2021 - Now"
         title="Tulip"
-        content="My journey continues as an iOS Developer at Tulip."
+        content="My journey continues as an iOS Developer at Tulip Retail."
         :showArrow="false"
         :showCircle="false"
         image="tulipLogo.png"
@@ -40,7 +40,7 @@
       <TimelineBox
         year="2021"
         title="Mohawk VR Center"
-        content="Contracted to create a 3D WebGL educational game. My first opportunity to use Unity in the real world."
+        content="Contracted to create a 3D WebGL educational game. An opportunity to use Unity in the real world. The game is currently being used to train students in the nursing program at Mohawk."
         :showArrow="true"
         :showCircle="false"
         image="mohawkLogo.png"
@@ -49,7 +49,7 @@
       <TimelineBox
         year="2019 - 2021"
         title="MEDIC"
-        content="My first software development job. MEDIC has been willing to provide a fresh developer like me with years of true hands-on development experience. "
+        content="My first software development job. MEDIC was willing to provide a fresh developer like me with years of true hands-on development experience in the eHealth space. I worked on mobile, web, and backend applications."
         :showArrow="true"
         image="medicLogo.png"
       />
@@ -66,7 +66,7 @@
         class="timeline"
         year="2018 - Now"
         title="Mohawk College [Advanced Diploma]"
-        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it. "
+        content="Continued with 3 year advanced diploma in Software Development. I achieved much success at Mohawk and earned many scholarly achievements and awards."
         :showCircle="true"
         image="mohawkLogo.png"
       />
@@ -75,7 +75,7 @@
         class="timeline"
         year="2018 - Now"
         title="Mohawk College [Diploma]"
-        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it. "
+        content="Began diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it. "
         :showArrow="true"
         image="mohawkLogo.png"
       />
@@ -84,7 +84,7 @@
         class="timeline"
         year="2014 - 2018"
         title="University of Guelph [BA]"
-        content="Completed BA in Criminal Justice and Public Policy w/ Business minor. "
+        content="Completed Honours BA in Criminal Justice and Public Policy w/ Business minor. While I may have fallen out of love with law whilst completing the program, the analytical and communication-oriented skills I acquired continue to benefit me today."
         :showArrow="true"
         image="guelphLogo.png"
       />

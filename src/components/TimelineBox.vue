@@ -118,13 +118,12 @@ export default {
   border-radius: 15px;  
 }
 
-@media (max-width: 700px) {
-  #containerT {
-    margin-left: 6px;
-    margin-right: 6px;
-    padding: 10px;      
+@media (max-width: 800px) {
+#containerTimeline {
+    margin-left: 2px;
+    margin-right: 2px;
 
-  }
+}
 
   #header {
     font-size: 3vw;
@@ -139,5 +138,12 @@ export default {
     padding-top: 16px;
     padding-bottom: 16px;
   }
+
+  #containerImage {
+  /* width: 7.5%; */
+  width: 15%;
+  height: 100%;  
+
+}
 }
 </style>

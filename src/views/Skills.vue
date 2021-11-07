@@ -25,6 +25,7 @@
       <div class="skill beginner">XCode</div>
       <div class="skill">Android Studio</div>
       <div class="skill">Intellij</div>
+      <div class="skill">Pyzo</div>
     </div>
 
     <h2>Frameworks / Platforms</h2>
