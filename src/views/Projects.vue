@@ -29,6 +29,14 @@
       />
 
       <ProjectBox
+        image="geekBot.png"
+        title="Geek Discord Bot"
+        description="A Discord Bot running on Node.JS that allows a user to input commands related to geeky media. Currently supports commands related to Rick and Morty and Dungeons and Dragons. Commands query public REST APIs for information."
+        skills="Node.JS, JavaScipt, REST API"
+        github="https://github.com/ArcticEH/geek-discord-bot"
+      />
+
+      <ProjectBox
         image="websiteScreenshot.png"
         title="Vue Portfolio Website"
         description="The website you are looking at right now! I aimed to create a minimalistic dark themed site that would be mobile-friendly and simple to maintain. I used Vue 3 to create the app and utilized reusable components whenever appopriate (such as with these 'Project Boxes'). The row-like design was mostly accomplished using flexbox and media queries. "
