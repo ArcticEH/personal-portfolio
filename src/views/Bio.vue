@@ -25,32 +25,55 @@
     </div>
 
     <div id="rowFour">
-      <div id="rowFourHeader">Origin Story</div>
+      <div id="rowFourHeader">Professional Story</div>
 
       <TimelineBox
-        year="2014 - 2018"
-        title="University of Guelph"
-        content="Completed BA in Criminal Justice and Public Policy w/ Business minor. "
-        :showArrow="true"
+        year="2021"
+        title="Mohawk VR Center"
+        content="Contracted to create a 3D WebGL educational game. My first opportunity to use Unity in the real world."
+        :showArrow="false"
+        :showCircle="true"
       />
-      <TimelineBox
-        year="2018 - Now"
-        title="Mohawk College"
-        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it."
-        :showArrow="true"
-      />
+
       <TimelineBox
         year="2019 - Now"
         title="MEDIC"
         content="My first software development job. MEDIC has been willing to provide a fresh developer like me with years of true hands-on development experience. "
         :showArrow="true"
       />
+
+
+
+
+    </div>
+
+    <div id="rowFive">
+        <div id="rowFiveHeader">Academic Story</div>
+
       <TimelineBox
-        year="2021"
-        title="Mohawk VR Center"
-        content="Contracted to create a 3D WebGL educational game. My first opportunity to use Unity in the real world."
-        :showArrow="false"
+        class="timeline"
+        year="2018 - Now"
+        title="Mohawk College [Advanced Diploma]"
+        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it."
+        :showCircle="true"
       />
+
+      <TimelineBox
+        class="timeline"
+        year="2018 - Now"
+        title="Mohawk College [Diploma]"
+        content="Started 3 year advanced diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it."
+        :showArrow="true"
+      />
+
+      <TimelineBox
+        class="timeline"
+        year="2014 - 2018"
+        title="University of Guelph [BA]"
+        content="Completed BA in Criminal Justice and Public Policy w/ Business minor. "
+        :showArrow="true"
+      />
+
     </div>
   </div>
 </template>
@@ -153,6 +176,21 @@ export default {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
+
+
+/* Row Five */
+#rowFive {
+  margin-top: 50px;
+}
+
+#rowFiveHeader {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 24px;  
+}
+
 </style>

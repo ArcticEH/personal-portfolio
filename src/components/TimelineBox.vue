@@ -1,22 +1,31 @@
 <template>
-  <div id="container">
-    <div id="header">
-      <span id="year" class="blue">{{ year }}</span>
-      <span id="title">{{ title }}</span>
+  <div id="containerT">
+    <fa v-if="this.showArrow" id="arrow" icon="caret-up"> </fa>
+    <fa v-if="this.showCircle" class="blue" id="circle" icon="circle"> </fa>
+    <div id="text">
+      <div id="header">
+        <span id="year" class="blue">{{ year }}</span>
+        <span id="title">{{ title }}</span>
+      </div>
+      <div id="content">{{ content }}</div>
     </div>
-    <div id="content">{{ content }}</div>
+    
   </div>
-  <fa v-if="this.showArrow" id="arrow" icon="caret-down"> </fa>
+
 </template>
 
 <script>
 export default {
-  props: ["year", "title", "content", "showArrow"],
+  props: ["year", "title", "content", "showArrow", "showCircle"],
 };
 </script>
 
 <style scoped>
-#container {
+#containerT {
+  margin-bottom: 0px;
+}
+
+#text {
   display: flex;
   flex-direction: column;
   background-color: #343434;
@@ -51,17 +60,32 @@ export default {
   display: block;
   position: relative;
   color: #343434;
-  bottom: 20px;
+  /* color: red; */
+  bottom: 8px;
+  /* top: -113px; */
   height: 50px;
   width: 100%;
   margin-bottom: -25px;
 }
 
+#circle {
+  display: block;
+  position: relative;  
+  /* color: red; */
+  bottom: 9px;
+  /* top: -113px; */
+  height: 30px;
+  width: 100%;
+  margin-bottom: -25px;
+}
+
 @media (max-width: 700px) {
-  #container {
+  #containerT {
     margin-left: 6px;
     margin-right: 6px;
-    padding: 10px;
+    padding: 10px; 
+    background-color: aqua;   
+
   }
 
   #header {
