@@ -10,8 +10,11 @@
       <router-link to="/" class="navBarItem">
         Bio
       </router-link>
+      <router-link to="/Slices" class="navBarItem">
+        Slices
+      </router-link>
       <router-link to="/Projects" class="navBarItem">
-        Projects
+        Other Projects
       </router-link>
       <router-link to="/Skills" class="navBarItem">
         Skills

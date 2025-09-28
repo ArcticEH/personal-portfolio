@@ -17,6 +17,7 @@
       <div class="skill">SQL</div>
       <div class="skill">PHP</div>
       <div class="skill">Python</div>
+      <div class="skill">Objective-C</div>
     </div>
 
     <h2>IDEs / Game Engines</h2>
@@ -36,6 +37,8 @@
       <div class="skill">Node.js</div>
       <div class="skill">Flutter</div>
       <div class="skill">WordPress</div>
+      <div class="skill">Symfony</div>
+      <div class="skill">SwiftUI</div>
     </div>
 
     <h2>Databases</h2>
@@ -52,6 +55,8 @@
       <div class="skill">BitBucket</div>
       <div class="skill">Jira</div>
       <div class="skill">Agile</div>
+      <div class="skill">Solr</div>
+      <div class="skill">Bulk Data Importing</div>
     </div>
   </div>
 </template>

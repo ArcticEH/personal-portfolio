@@ -3,8 +3,9 @@ import Bio from "../views/Bio.vue";
 import Projects from "../views/Projects.vue";
 import Skills from "../views/Skills.vue";
 import Contact from "../views/Contact.vue";
+import Slices from "../views/Slices.vue";
 
-const routes = [
+export const routes = [
   {
     path: "/",
     name: "Bio",
@@ -12,7 +13,7 @@ const routes = [
   },
   {
     path: "/Projects",
-    name: "Projects",
+    name: "Other Projects",
     component: Projects,
   },
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/Contact",
     name: "Contact",
     component: Contact,
+  },
+  {
+    path: "/Slices",
+    name: "Slices",
+    component: Slices,
   },
 ];
 

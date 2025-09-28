@@ -11,15 +11,15 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/vue-fontawesome": "^3.0.0-4",
-    "core-js": "^3.6.5",
     "emailjs-com": "^3.2.0",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0"
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.2.37",
+    "core-js": "^3.24.1"
   }
 }

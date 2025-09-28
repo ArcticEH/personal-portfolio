@@ -1,6 +1,6 @@
 <template>
   <div @click="onBackgroundClick" id="container">
-    <Navbar ref="navBarComponent" />
+    <Navbar ref="navBarComponent" :routes="routes" />
 
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
@@ -15,10 +15,19 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
+import { routes } from "./router";
 
 export default {
   mounted() {
     this.$router.replace("/"); // added this
+  },
+  data() {
+    return {
+      // Expose routes to the template for the Navbar
+      routes: routes.filter(
+        (r) => r.name !== "PublicApps" && r.name !== "NotFound"
+      ),
+    };
   },
   components: { Navbar, Footer },
   methods: {

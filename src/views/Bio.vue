@@ -12,7 +12,7 @@
     </div>
 
     <div id="rowThree">
-      <img src="../assets/portfolioImage.png" rel="preload" />
+      <img src="../assets/portfolioImage2.png" rel="preload" />
         <div id="rowThreeText">
         I'm Brandon, a  software developer who loves
         creating all sorts of useful and fun applications.
@@ -52,10 +52,6 @@
         :showArrow="true"
         image="medicLogo.png"
       />
-
-
-
-
     </div>
 
     <div id="rowFive">
@@ -74,8 +70,8 @@
         class="timeline"
         year="2018 - 2021"
         title="Mohawk College [Advanced Diploma]"
-        content="Continued with 3 year advanced diploma in Software Development. I achieved much success at Mohawk and earned many scholarly achievements and awards."
-        :showCircle="true"
+        content="Continued with 3 year advanced diploma in Software Development. I achieved much success and earned the gold medal for highest academic average in my program."
+        :showArrow="true"
         image="mohawkLogo.png"
       />
 
@@ -83,7 +79,7 @@
         class="timeline"
         year="2018 - Now"
         title="Mohawk College [Diploma]"
-        content="Began diploma in Software Development. Mohawk is where I fell in love with programming and realized im kind of good at it. "
+        content="Began diploma in Software Development. Mohawk is where I fell in love with programming."
         :showArrow="true"
         image="mohawkLogo.png"
       />
@@ -148,10 +144,11 @@ export default {
   height: auto;
   width: 200px;
   background-color: white;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 15px;
-  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom :5px;
+  border-radius: 10px;
 }
 
 #rowThreeText {
