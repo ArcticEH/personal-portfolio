@@ -13,7 +13,7 @@ export const routes = [
   },
   {
     path: "/Projects",
-    name: "Projects",
+    name: "Other Projects",
     component: Projects,
   },
   {

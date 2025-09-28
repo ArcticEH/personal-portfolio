@@ -37,8 +37,11 @@
       <router-link to="/" @click="toggleMenu" class="sideBarMenuItem">
         Bio
       </router-link>
+      <router-link to="/Slices" @click="toggleMenu" class="sideBarMenuItem">
+        Slices
+      </router-link>
       <router-link to="/Projects" @click="toggleMenu" class="sideBarMenuItem">
-        Projects
+        Other Projects
       </router-link>
       <router-link to="/Skills" @click="toggleMenu" class="sideBarMenuItem">
         Skills
