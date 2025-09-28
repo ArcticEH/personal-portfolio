@@ -1,6 +1,41 @@
 <template>
   <div id="projectContainer">
-    <div class="">
+        <div class="">
+        <div class="category">
+          <h2 class="title">Notable Professional Projects</h2>
+        </div>
+
+        <ProjectBox
+          image="tulipPOS.webp"
+          title="Tulip Point of Sale Mobile App"
+          description=""
+          skills="Swift, iOS, XCode, PHP, Symfony, MySQL, (and much more)"
+          link="https://apps.apple.com/us/app/tulip-point-of-sale/id1489223642"
+        />
+
+        <ProjectBox
+          image="hazardScreenshot.png"
+          title="3D WebGL Hazard Game"
+          description="A education game targeting nursing students where 10 randomly spawning hazards must be identified to win. I was the sole developer on the project and utilized raycasting, collision, animators, player movement, and simple UI. "
+          skills="Unity, C#, 3D"
+          youtube="https://www.youtube.com/watch?v=YGUSFeBUNoI"
+        />
+
+        <ProjectBox
+          image="back2playScreenshot.png"
+          title="iOS Concussion Research App "
+          description="Worked on a 3 person development team to create an iOS and WatchOS concussion recovery app aimed at adolescents. The app sends notifications to the user to complete daily surveys with self-reporting symptoms. Users move through 2 recovery systems with the help of app recommendations. Click the link icon below for additional information from the research team."
+          skills="iOS, WatchOS, Swift, XCode"
+          link="https://www.canchild.ca/en/research-in-practice/current-studies/the-back2play-app-study"
+        />
+
+        <ProjectBox
+          image="chartJSScreenshot.png"
+          title="App Metrics Visualization Web App"
+          description="Created a web app that aggregated and manipulated raw usage data from a mobile application and displayed the data using the appopriate charts. The app also required a login system and a node backend which utilized a PostGres database. "
+          skills="Javascript, Chart JS, Node, Express, SQL, PostGres"
+        />
+      </div>
       <h2 class="title">Personal Projects</h2>
       <!-- <fa class="whiteIcon" icon="gamepad" /> -->
       <ProjectBox
@@ -44,34 +79,6 @@
         github="https://github.com/ArcticEH/personal-portfolio"
       />
     </div>
-
-    <div class="category">
-      <h2 class="title">Notable Professional Projects</h2>
-    </div>
-
-    <ProjectBox
-      image="hazardScreenshot.png"
-      title="3D WebGL Hazard Game"
-      description="A education game targeting nursing students where 10 randomly spawning hazards must be identified to win. I was the sole developer on the project and utilized raycasting, collision, animators, player movement, and simple UI. "
-      skills="Unity, C#, 3D"
-      youtube="https://www.youtube.com/watch?v=YGUSFeBUNoI"
-    />
-
-    <ProjectBox
-      image="back2playScreenshot.png"
-      title="iOS Concussion Research App "
-      description="Worked on a 3 person development team to create an iOS and WatchOS concussion recovery app aimed at adolescents. The app sends notifications to the user to complete daily surveys with self-reporting symptoms. Users move through 2 recovery systems with the help of app recommendations. Click the link icon below for additional information from the research team."
-      skills="iOS, WatchOS, Swift, XCode"
-      link="https://www.canchild.ca/en/research-in-practice/current-studies/the-back2play-app-study"
-    />
-
-    <ProjectBox
-      image="chartJSScreenshot.png"
-      title="App Metrics Visualization Web App"
-      description="Created a web app that aggregated and manipulated raw usage data from a mobile application and displayed the data using the appopriate charts. The app also required a login system and a node backend which utilized a PostGres database. "
-      skills="Javascript, Chart JS, Node, Express, SQL, PostGres"
-    />
-  </div>
 </template>
 <script>
 import ProjectBox from "../components/ProjectBox.vue";

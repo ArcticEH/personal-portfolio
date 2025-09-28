@@ -13,13 +13,12 @@
 
     <div id="rowThree">
       <img src="../assets/portfolioImage.png" rel="preload" />
-      <div id="rowThreeText">
-        I'm Brandon, a final semester software development student who loves
-        developing games and applications. I am very passionate about the work I
-        do and treat every project as a learning opportunity.
+        <div id="rowThreeText">
+        I'm Brandon, a  software developer who loves
+        creating all sorts of useful and fun applications.
         <br />
         <br />
-        When I am not programming, you will likely find me strength training,
+        When I am not programming, you will likely find me lifting weights,
         playing video games, or reading fantasy books.
       </div>
     </div>
@@ -31,7 +30,7 @@
       <TimelineBox
         year="2021 - Now"
         title="Tulip"
-        content="My journey continues as an iOS Developer at Tulip Retail."
+        content="Currently a software developer at Tulip Retail specializing in iOS development. Tulip creates a suite of applications for retail associates to enhance the in-store shopping experience. Specifically, I primarily work on Tulip's point of sale applications."
         :showArrow="false"
         :showCircle="false"
         image="tulipLogo.png"
@@ -40,7 +39,7 @@
       <TimelineBox
         year="2021"
         title="Mohawk VR Center"
-        content="Contracted to create a 3D WebGL educational game. An opportunity to use Unity in the real world. The game is currently being used to train students in the nursing program at Mohawk."
+        content="Contracted to create a 3D WebGL educational game. An opportunity to use Unity in the real world. The game is currently being used to train students in the nursing program at Mohawk College."
         :showArrow="true"
         :showCircle="false"
         image="mohawkLogo.png"
@@ -48,8 +47,8 @@
 
       <TimelineBox
         year="2019 - 2021"
-        title="MEDIC"
-        content="My first software development job. MEDIC was willing to provide a fresh developer like me with years of true hands-on development experience in the eHealth space. I worked on mobile, web, and backend applications."
+        title="MEDIC - Software Developer"
+        content="Gained extensive, hands-on experience in the eHealth sector. As my foundational development role, I contributed to mobile (iOS/Android), web, and backend applications, building proficiency across the full software stack."
         :showArrow="true"
         image="medicLogo.png"
       />
@@ -64,7 +63,16 @@
 
       <TimelineBox
         class="timeline"
-        year="2018 - Now"
+        year="2022 - Ongoing"
+        title="McMaster University [Bachelor of Technology - Software Engineering]"
+        content="Completing McMaster's BTech program part-time while working full-time."
+        :showCircle="true"
+        image="mcmasterUniversity.png"
+      />
+
+      <TimelineBox
+        class="timeline"
+        year="2018 - 2021"
         title="Mohawk College [Advanced Diploma]"
         content="Continued with 3 year advanced diploma in Software Development. I achieved much success at Mohawk and earned many scholarly achievements and awards."
         :showCircle="true"
