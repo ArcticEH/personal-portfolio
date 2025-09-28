@@ -8,7 +8,7 @@
 
     <div id="rowTwo">
       <b>Hi.</b> <br />
-      I am a mobile, game, and web developer.
+      I am a mobile, web, and sometimes game developer.
     </div>
 
     <div id="rowThree">
@@ -77,7 +77,7 @@
 
       <TimelineBox
         class="timeline"
-        year="2018 - Now"
+        year="2018 - 2020"
         title="Mohawk College [Diploma]"
         content="Began diploma in Software Development. Mohawk is where I fell in love with programming."
         :showArrow="true"

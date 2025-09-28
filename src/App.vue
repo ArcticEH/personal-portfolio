@@ -18,9 +18,6 @@ import Footer from "./components/Footer.vue";
 import { routes } from "./router";
 
 export default {
-  mounted() {
-    this.$router.replace("/"); // added this
-  },
   data() {
     return {
       // Expose routes to the template for the Navbar

@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import Bio from "../views/Bio.vue";
 import Projects from "../views/Projects.vue";
 import Skills from "../views/Skills.vue";
@@ -13,7 +13,7 @@ export const routes = [
   },
   {
     path: "/Projects",
-    name: "Other Projects",
+    name: "Projects",
     component: Projects,
   },
   {
@@ -31,10 +31,15 @@ export const routes = [
     name: "Slices",
     component: Slices,
   },
+  {
+    path: "/:catchAll(.*)",
+    name: "NotFound",
+    redirect: "/",
+  },
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
 });
 
